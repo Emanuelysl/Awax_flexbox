@@ -1,0 +1,951 @@
+body
+{
+    margin: 0px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+                                            /* ________HEADER________ */
+header
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.topo
+{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 80px;
+    height: 80px;
+}
+
+
+.logo_circulo
+{
+    display: flex;
+    background-color: rgb(184, 125, 59);
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+}
+
+.menu_links
+{
+    display: flex;
+    width: 70%;
+    text-align: end;
+}
+
+.menu_links ul
+{
+
+    display: flex;
+    margin: 30px 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 12px;
+    flex: 1;
+}
+
+.menu_links1 a
+{
+    color: white;
+    padding: 39px 10px;
+    text-decoration: none;
+}
+
+#home
+{
+    border-bottom: 5px solid rgb(184, 125, 59);
+    padding: 39px 10px;
+    color: rgb(171, 171, 171);
+}
+
+.menu_links1 a:hover
+{
+    border-bottom: 5px solid rgb(184, 125, 59);
+    color: rgb(171, 171, 171);
+}
+
+                                        /* ________DESIGN ABAIXO DO HEADER________ */
+.imagem
+{
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 700px;
+}
+
+.sombra
+{
+    background-color: rgba(0, 0, 0, 0.578);
+    width: 100%;
+    height: 700px;
+}
+
+h1
+{
+    margin: 0PX;
+}
+
+.design
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+.design_texto1
+{
+    font-size: 55px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.design_texto2
+{
+    font-size: 55px;
+    color: rgb(184, 125, 59);
+    margin: 0px;
+    padding: 0px;
+}
+
+.design_texto3
+{
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+.design a 
+{
+    text-decoration: none;
+    color: white;
+    margin: 30px 0px 0px 0px;
+}
+
+.design_texto4
+{
+    background-color: rgb(184, 125, 59);
+    border-radius: 20px;
+    font-size: 11px;
+    padding: 10px 20px;
+}
+
+a.design_texto4
+{
+    width: 100px;
+}
+
+.circulos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 110px 110px 0px 110px;
+    margin: 160px 0px 50px 0px;
+}
+
+.circulos1
+{
+    background-color: #B28756;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 0px 4px;
+}
+
+.circulos2
+{
+    border: 2px solid #B28756;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    margin: 0px 4px;
+}
+
+.circulos3
+{
+    border: 2px solid #B28756;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    margin: 0px 4px;
+}
+
+                                            /* ________ABOUT US________ */
+.container_abouts
+{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 400px;
+    padding: 50px 0px;
+}
+
+.abouts_titulo
+{
+    font-weight: bold;
+    font-weight: 600px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.abouts_subtulo
+{
+    color: rgb(207, 207, 207);
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0px 40px 0px;
+}
+
+.abouts_contentor
+{
+    background-color: cadetblue;
+}
+
+.container_abouts2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.abouts_caixa
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 620px;
+    height: 303px;
+}
+
+.abouts_caixa p
+{
+    margin: 0px;
+    width: 610px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.abouts_texto
+{
+    margin: 0px;
+}
+
+.abouts_button a
+{
+    text-align: start;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 50px;
+    background-color: #B28756;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.abouts_imagem
+{
+    width: 520px;
+    height: 303px;
+    text-align: center;
+}
+
+.abouts_imagem img
+{
+    background-image: url("foto9.jpg");
+    width: 480px;
+    height: 300px;
+    box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.412);
+}
+
+                                        /* ________SERVICES________ */
+.container_services
+{
+    background-color: black;
+    padding: 50px 0px;
+    width: 100%;
+    height: 278px;
+}
+
+.services_titulo
+{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.services_subtitulo
+{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.services_container2
+{
+    margin: 0px 100px;
+    width: 85%;
+    height: 190px;
+}
+
+.services_caixotes
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.services_caixa
+{
+    width: 300px;
+    height: 156px;
+    padding: 15px;
+    border-right: 1px solid rgba(128, 128, 128, 0.618);
+}
+
+.services_caixa1
+{
+    width: 300px;
+    height: 156px;
+    padding: 15px;
+    border-left: 1px solid rgba(128, 128, 128, 0.618);
+    border-right: 1px solid rgba(128, 128, 128, 0.618);
+}
+
+.services_caixa h4
+{
+    color: white;
+    margin: 20px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.services_caixa1 h4
+{
+    color: white;
+    margin: 20px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.services_caixa p
+{
+    color: gray;
+    margin: 10px 0px 0px 0px;
+    font-size: 12PX;
+}
+
+.services_caixa1 p
+{
+    color: gray;
+    margin: 10px 0px 0px 0px;
+    font-size: 12PX;
+}
+
+                                        /* ________OUR PROJECTS________ */
+.container_our_projects
+{
+    background-color: #f7f7f7;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.our_projects_titulo
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.our_projects_subtitulo
+{
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+}
+
+.container_projects1
+{
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.lista_project
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEE;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #CCC;
+    border-radius: 40px;
+    width: 420px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.lista_project ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.lista_project li
+{
+    padding: 10px;
+    font-size: 13px;
+    color: #555555;
+    border-bottom: 3px solid #EEE;
+}
+
+#photos
+{
+    border-left: 1px solid #CCC;
+    border-bottom: 3PX solid #B28756;
+}
+
+#branding, #adverts, #develop, #misc
+{
+    border-left: 1px solid #CCC;
+}
+
+.lista_project li:hover
+{
+    border-bottom: 3PX solid #B28756;
+}
+
+.imagens_projects
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.imagens_projects div 
+{
+    width: 260px;
+    height: 160px;
+    padding: 10px;
+}
+
+.imagens_projects div img
+{
+    width: 260px;
+    height: 160px;
+}
+
+.imagens_projects1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens_projects1 div
+{
+    width: 260px;
+    height: 160px;
+    padding: 10px;
+}
+
+.imagens_projects1 div img
+{
+    width: 260px;
+    height: 160px;
+}
+
+.imagens_projects2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagens_projects2 div
+{
+    width: 260px;
+    height: 160px;
+    padding: 10px;
+}
+
+.imagens_projects2 div img
+{
+    width: 260px;
+    height: 160px;
+}
+
+.projects_buttao
+{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projects_buttao a
+{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #B28756;
+    color: white;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+                                            /* ________OUR TEAM________ */
+.container_our_team
+{
+    background-image: url("foto2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container_team
+{
+    background-color: rgba(0, 0, 0, 0.578);
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.team_titulo h4
+{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.team_subtitulo p
+{
+    color: white;
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+}
+
+.team_caixotes
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.team_caixas
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.team_caixa
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.team_caixa1
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 0px 10px;
+}
+
+.team_caixa2
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 0px 10px;
+}
+
+.team_caixa3
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 0px 10px;
+}
+
+.team_perfil
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+}
+
+.team_perfil1
+{
+    width: 150px;
+    height: 150px;
+}
+
+.team_nome
+{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.team_funcao
+{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.team_redessociais
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_lista_redessociais
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 200px;
+    padding: 0px;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+}
+
+a.team_img
+{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.circulos_team
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 110px 0px 110px;
+}
+
+                                        /* ________HAPPY_CLIENTS________ */
+.container_happy_clints
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.happy_clints_titulo
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.happy_clints_subtitulo
+{
+    font-size: 12px;
+    margin: 10px 0px 40px 0px;
+    color: #CCCCCC;
+}
+
+.clients_foto
+{
+    width: 100px;
+    height: 100px;
+}
+
+.clients_name
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.clients_funcao
+{
+    font-size: 12px;
+}
+
+.clients_virgula
+{
+    width: 20px;
+    height: 15px;
+    margin-top: 30px;
+}
+
+.clients_texto
+{
+    display: flex;
+    max-width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.circulos_clients
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+                                    /* ________PATROCINADRES/MARCAS________ */
+.container_marcas_patrocinadores
+{
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    padding: 50px 0px;
+    width: 100%;
+    height: 64px;
+}
+
+.container_marcas
+{
+    margin: 0px 205px;
+}
+
+.container_marcas1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caixa_marcas
+{
+    width: 190px;
+}
+
+                                        /* ________PRICE________ */
+.container_price
+{
+    background-color: #F7F7F7;
+    padding: 50px 0px;
+}
+
+.price_titulo
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price_subtitulo
+{
+    text-align: center;
+    font-size: 12px;
+    color: #CCCCCC;
+    margin: 10px 0px 40px 0px;
+}
+
+.container_price1
+{
+    margin: 0px 204px;
+}
+
+.condentor_price
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa_price
+{
+    background-color: #FFFFFF;
+    padding: 20px;
+    flex: 1;
+    margin-right: 19px;
+    text-align: center;
+}
+
+.caixa_price1
+{
+    background-color: #FFFFFF;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.price_name
+{
+    font-size: 12px;
+}
+
+.price_money
+{
+    font-weight: bold;
+
+    font-size: 22px;
+    margin: 10px 0px 0px 0px;
+}
+
+.price_tempo
+{
+    color: #868686;
+    margin: 0px 0px 20px 0px;
+    font-size: 12px;
+}
+
+.price_item
+{
+    font-size: 12px;
+}
+
+.price_botao
+{
+    margin: 30px 0px 2px 0px;
+    padding: 10px 30px;
+}
+
+#price_botao
+{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+#price_botao:hover
+{
+    color: white;
+    background-color:#B28756;
+}
+
+                                        /* ________PREMIUM________ */
+.container_premium
+{
+    padding: 50px 0px;
+}
+
+.premium_titulo
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.premium_subtitulo
+{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+}
+
+.container_premium1
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.condentor_premium
+{
+    padding: 0px 0px 40px;
+    margin: 0px 180px;
+    border-bottom: 1px solid gray;
+}
+
+.condentor_premium1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.premium_imagem
+{
+    text-align: right;
+    flex:1
+}
+
+.premium_imagem img
+{
+    max-width: 282px;
+    max-height: 300px;
+    margin: 0px 30px 0px 0px;
+}
+
+.caixas_premium
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_premium
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 570px;
+    margin-bottom: 20px;
+}
+
+.caixa_premium img
+{
+    width: 20px;
+    height: 20px;
+    flex: 1;
+    padding-right: 15px;
+}
+
+.premium_texto
+{
+    max-width: 530px;
+}
+
+.premium_texto h4, p
+{
+    margin: 0px;
+}
+
+.circulos_premium
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 110px 0px 110px;
+}
